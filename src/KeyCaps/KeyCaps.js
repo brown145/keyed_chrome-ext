@@ -22,7 +22,15 @@ const KeyCaps = () => {
 
   if (!key) return null;
 
-  console.log('to show', key);
+  return (
+    <>
+      <KeySVG text="K" size={50} />
+      <KeySVG text="E" size={50} />
+      <KeySVG text="Y" size={50} />
+      <KeySVG text="E" size={50} />
+      <KeySVG text="D" size={50} />
+    </>
+  );
 
   return (
     <div className={['key-set', fadeOut ? 'fadeOut' : ''].join(' ')}>

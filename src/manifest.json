@@ -1,8 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Keyed - Onscreen key logger",
-  "description": "A simple tool for displaying keyboard input on screen. Useful for doing screen recordings where viewers may need to be aware of tabbing, or other keyboard inputs.",
+  "description": "KEYED show keys as you type in chrome; useful for demos and such.",
   "author": "https://github.com/brown145",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>"
+  ],
   "background": {
     "service_worker": "background.bundle.js",
     "type": "module"
