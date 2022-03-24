@@ -1,0 +1,18 @@
+/* TODO: fix webpack to pack styles from components */
+
+.app {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.key-set {
+    display: flex;
+}
+
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}

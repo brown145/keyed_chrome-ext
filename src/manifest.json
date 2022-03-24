@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Keyed - Onscreen key logger",
+  "description": "A simple tool for displaying keyboard input on screen. Useful for doing screen recordings where viewers may need to be aware of tabbing, or other keyboard inputs.",
+  "author": "https://github.com/brown145",
+  "background": {
+    "service_worker": "background.bundle.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": "icon-128.png"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.bundle.js"
+      ],
+      "css": [
+        "content.styles.css"
+      ]
+    }
+  ],
+  "devtools_page": "devtools.html",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content.styles.css",
+        "icon-128.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
