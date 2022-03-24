@@ -23,16 +23,6 @@ const KeyCaps = () => {
   if (!key) return null;
 
   return (
-    <>
-      <KeySVG text="K" size={50} />
-      <KeySVG text="E" size={50} />
-      <KeySVG text="Y" size={50} />
-      <KeySVG text="E" size={50} />
-      <KeySVG text="D" size={50} />
-    </>
-  );
-
-  return (
     <div className={['key-set', fadeOut ? 'fadeOut' : ''].join(' ')}>
       {modifiers.map((mod) => (
         <KeySVG key={mod} text={mod.toUpperCase()} size={50} />
