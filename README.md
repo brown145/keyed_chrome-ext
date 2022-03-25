@@ -1,3 +1,5 @@
+see: https://chrome.google.com/webstore/detail/keyed-onscreen-key-logger/ieffkiaajoikjeliemfkiobkfnccbooh
+
 baised on https://github.com/lxieyang/chrome-extension-boilerplate-react
 
 TODO: 
