@@ -1,4 +1,3 @@
-import './reset.styles.css';
 import './content-frame.styles.css';
 
 import Frame, { FrameContextConsumer } from 'react-frame-component';
