@@ -7,6 +7,7 @@ const KeyCaps = ({ size, text }) => {
     <div
       style={{
         position: 'relative',
+        paddingRight: '0.2em',
       }}
     >
       <div

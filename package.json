@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-boilerplate-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "KEYED show keys as you type in chrome; useful for demos and such",
   "license": "MIT",
   "repository": {

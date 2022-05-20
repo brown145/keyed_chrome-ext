@@ -9,10 +9,13 @@
 
 .key-set {
     display: flex;
+    top: 0;
+    position: relative;
 }
 
 .fadeOut {
+  top: 15px;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s 2s, opacity 2s linear;
+  transition: top 2s ease-in 0.5s, visibility 0s 2s, opacity 2s linear;
 }
